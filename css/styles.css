@@ -60,5 +60,26 @@ header {
 
 
 /*---begin nav---*/
+nav {
+    background-color: #006172;
+    color: #fff;
+}
 
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li:hover {
+    background-color: #09859a;
+}
+
+nav a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+}
 /*---end nav---*/
