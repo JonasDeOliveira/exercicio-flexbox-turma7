@@ -83,3 +83,30 @@ nav a {
     text-decoration: none;
 }
 /*---end nav---*/
+
+/*---begin footer---*/
+
+footer {
+    background-color: #ececec;
+    border-top: 10px solid #006172;
+    padding: 20px 20px 50px;
+    color: #8d8178;
+}
+
+footer .info {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.title {
+    color: #006172;
+    font-weight: bold;
+    margin-bottom:10px
+}
+
+/*---end footer---*/
