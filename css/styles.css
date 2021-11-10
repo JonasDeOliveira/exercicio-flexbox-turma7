@@ -55,9 +55,14 @@ header {
     width: 30px;
 } 
 
-
 /*---end header---*/
 
+/*---begin banner---*/
+.banner img {
+    width: 100%;
+}
+
+/*---end banner---*/
 
 /*---begin nav---*/
 nav {
@@ -81,6 +86,7 @@ nav a {
     padding: 10px 15px;
     color: #fff;
     text-decoration: none;
+    text-align: center;
 }
 /*---end nav---*/
 
@@ -109,4 +115,9 @@ footer ul {
     margin-bottom:10px
 }
 
+.copyright-mobile {
+    display: none;
+}
+
 /*---end footer---*/
+

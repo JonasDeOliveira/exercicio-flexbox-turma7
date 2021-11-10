@@ -1,0 +1,27 @@
+/*---begin responsive---*/
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header div {
+        margin: 5px 0
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    footer .info {
+        flex-direction: column;
+    }
+
+    .copyright-mobile {
+        display: block;
+    }
+
+    .copyright-desktop {
+        display: none;
+    }
+}
